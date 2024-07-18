@@ -1,7 +1,6 @@
 # Used to display a desciption of the device
-record(stringout, "$(P)$(R)device")
+record(stringout, "$(P)$(R)name")
 {
-    field (DESC, "$(R)DEVICE_NAME")
 }
 
 ##########################################

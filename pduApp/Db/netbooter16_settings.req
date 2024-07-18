@@ -1,0 +1,33 @@
+$(P)$(R)device.DESC
+$(P)$(R)status1.DESC
+$(P)$(R)status2.DESC
+$(P)$(R)status3.DESC
+$(P)$(R)status4.DESC
+$(P)$(R)status5.DESC
+$(P)$(R)status6.DESC
+$(P)$(R)status7.DESC
+$(P)$(R)status8.DESC
+$(P)$(R)status9.DESC
+$(P)$(R)status10.DESC
+$(P)$(R)status11.DESC
+$(P)$(R)status12.DESC
+$(P)$(R)status13.DESC
+$(P)$(R)status14.DESC
+$(P)$(R)status15.DESC
+$(P)$(R)status16.DESC
+file calcout_settings.req P=$(P)$(R)userCalcOut1
+file calcout_settings.req P=$(P)$(R)userCalcOut2
+file calcout_settings.req P=$(P)$(R)userCalcOut3
+file calcout_settings.req P=$(P)$(R)userCalcOut4
+file calcout_settings.req P=$(P)$(R)userCalcOut5
+file calcout_settings.req P=$(P)$(R)userCalcOut6
+file calcout_settings.req P=$(P)$(R)userCalcOut7
+file calcout_settings.req P=$(P)$(R)userCalcOut8
+file calcout_settings.req P=$(P)$(R)userCalcOut9
+file calcout_settings.req P=$(P)$(R)userCalcOut10
+file calcout_settings.req P=$(P)$(R)userCalcOut11
+file calcout_settings.req P=$(P)$(R)userCalcOut12
+file calcout_settings.req P=$(P)$(R)userCalcOut13
+file calcout_settings.req P=$(P)$(R)userCalcOut14
+file calcout_settings.req P=$(P)$(R)userCalcOut15
+file calcout_settings.req P=$(P)$(R)userCalcOut16

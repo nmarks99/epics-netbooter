@@ -1,0 +1,11 @@
+$(P)$(R)device.DESC
+$(P)$(R)status1.DESC
+$(P)$(R)status2.DESC
+$(P)$(R)status3.DESC
+$(P)$(R)status4.DESC
+$(P)$(R)status5.DESC
+file calcout_settings.req P=$(P)$(R)userCalcOut1
+file calcout_settings.req P=$(P)$(R)userCalcOut2
+file calcout_settings.req P=$(P)$(R)userCalcOut3
+file calcout_settings.req P=$(P)$(R)userCalcOut4
+file calcout_settings.req P=$(P)$(R)userCalcOut5

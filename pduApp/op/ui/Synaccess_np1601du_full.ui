@@ -39,7 +39,7 @@
           </size>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">$(P):$(R):device.DESC</string>
+          <string notr="true">$(P):$(R):name</string>
          </property>
          <property name="background">
           <color>

@@ -7,6 +7,9 @@ epicsEnvSet("PREFIX", "pdu:")
 # Search path for lua scripts
 epicsEnvSet("LUA_SCRIPT_PATH", "./lua_scripts")
 
+# search path for streamDevice protocol files
+epicsEnvSet("STREAM_PROTOCOL_PATH", ".")
+
 # Specify largest array CA will transport
 # Note for N doubles, need N*8 bytes+some overhead
 epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", 64010)
