@@ -1,0 +1,603 @@
+# Used to display a desciption of the device
+record(stringout, "$(P)$(R)device")
+{
+    field (DESC, "$(R)DEVICE_NAME")
+}
+
+###############################
+# $(P)$(R)userCalcOutX
+# calcout records for each port
+###############################
+
+record(bo, "$(P)userCalcOut1:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut1.DISA $(P)userCalcOut1:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut1")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut2:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut2.DISA $(P)userCalcOut2:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut2")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut3:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut3.DISA $(P)userCalcOut3:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut3")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut4:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut4.DISA $(P)userCalcOut4:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut4")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut5:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut5.DISA $(P)userCalcOut5:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut5")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut6:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut6.DISA $(P)userCalcOut6:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut6")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut7:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut7.DISA $(P)userCalcOut7:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut7")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut8:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut8.DISA $(P)userCalcOut8:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut8")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut9:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut9.DISA $(P)userCalcOut9:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut9")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut10:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut10.DISA $(P)userCalcOut10:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut10")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut11:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut11.DISA $(P)userCalcOut11:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut11")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut12:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut12.DISA $(P)userCalcOut12:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut12")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut13:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut13.DISA $(P)userCalcOut13:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut13")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut14:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut14.DISA $(P)userCalcOut14:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut14")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut15:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut15.DISA $(P)userCalcOut15:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut15")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+record(bo, "$(P)userCalcOut16:$(R)EnableCalc")
+{
+    field (VAL, 1)
+    field (OUT, "$(P)$(R)userCalcOut16.DISA $(P)userCalcOut16:$(R)EnableCalc.RVAL")
+    field (PINI, "YES")
+}
+
+record(calcout, "$(P)$(R)userCalcOut16")
+{
+    field (SCAN, "Passive")
+    field (DISV, "0")
+}
+
+
+# Waits for 5 seconds before processing $(P)$(R)get_status
+record(seq, "$(P)$(R)wait_for_all")
+{
+  field (LNK0,"$(P)$(R)get_status.PROC")
+  field (DO0, 1)
+  field (DLY0, 5)
+}
+
+#######################
+# $(P)$(R)allon
+# Turns all outlets On
+#######################
+
+record(bo, "$(P)$(R)allon")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto setall(1) $(PORT)")
+    field (FLNK, "$(P)$(R)wait_for_all.PROC")
+}
+
+#######################
+# $(P)$(R)alloff
+# Turns all outlets Off
+#######################
+
+record(bo, "$(P)$(R)alloff")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto setall(0) $(PORT)")
+    field (FLNK, "$(P)$(R)wait_for_all.PROC")
+}
+
+##########################################
+# $(P)$(R)setX
+# Sets outlet X On (VAL=1) or Off (VAL=0)
+#
+# Processing a setX record also triggers
+# processing of get_status record
+##########################################
+
+record(bo, "$(P)$(R)set1")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(1) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set2")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(2) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set3")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(3) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set4")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(4) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set5")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(5) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set6")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(6) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set7")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(7) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set8")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(8) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set9")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(9) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set10")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(10) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set11")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(11) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set12")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(12) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set13")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(13) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set14")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(14) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set15")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(15) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(bo, "$(P)$(R)set16")
+{
+    field (DTYP, "stream")
+    field (VAL, 0)
+    field (OUT,  "@Synaccess_netBooter.proto set(16) $(PORT)")
+    field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+
+###################
+# $(P)$(R)rebootX
+# Reboots outlet X
+###################
+
+record(bo, "$(P)$(R)reboot1")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(1) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot2")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(2) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot3")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(3) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot4")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(4) $(PORT)")
+}
+record(bo, "$(P)$(R)reboot5")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(5) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot6")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(6) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot7")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(7) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot8")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(8) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot9")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(9) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot10")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(10) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot11")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(11) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot12")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(12) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot13")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(13) $(PORT)")
+}
+record(bo, "$(P)$(R)reboot14")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(14) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot15")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(15) $(PORT)")
+}
+
+record(bo, "$(P)$(R)reboot16")
+{
+    field (DTYP, "stream")
+    field (OUT,  "@Synaccess_netBooter.proto reboot(16) $(PORT)")
+}
+
+######################################
+# $(P)$(R)statusX
+# Indicates the status of each outlet
+######################################
+
+# Check the status of the outlets every 10 seconds
+record(bo, "$(P)$(R)periodic_status")
+{
+   field (SCAN, "10 second")
+   field (FLNK,  "$(P)$(R)get_status.PROC")
+}
+
+record(stringin, "$(P)$(R)get_status")
+{
+  field (DTYP, "stream")
+  field (INP,  "@Synaccess_netBooter.proto get_status16($(P),$(R)) $(PORT)")
+  field (PINI, "YES")
+}
+
+record(bi, "$(P)$(R)status1")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status2")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status3")
+{
+
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status4")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status5")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status6")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status7")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status8")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status9")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status10")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status11")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status12")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status13")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status14")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status15")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
+
+record(bi, "$(P)$(R)status16")
+{
+   field (INP, 0)
+   field (SCAN, "Passive")
+}
