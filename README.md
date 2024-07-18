@@ -1,2 +1,2 @@
-# xxxMin
-A bare minimum xxx style IOC without all the included support
+# EPICS support for Synaccess netBooter PDUs
+This repo demonstrates streamDevice EPICS support for Synaccess PDUs
